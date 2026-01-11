@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+   
+   
+   <head>
+   
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+     
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+    <link rel="icon" href="images/iuslogo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/iuslogo.ico" type="image/x-icon">
+      <title>Simple Password Generator</title>
+  
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+      
+      <link href="css/font-awesome.min.css" rel="stylesheet" />
+     
+      <link href="css/style.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ 
+     
+      
+   </head>
+   <body>
+      <div class="hero_area">
+    
+         <header class="header_section">
+            <div class="container">
+               <nav class="navbar navbar-expand-lg custom_nav-container ">
+                  <a class="navbar-brand" href="index.html"><img width="250" src="images/projelogo1.png" alt="#" /></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class=""> </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav ml-auto">
+                    
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="signup.html">Sign up </a>
+                        </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="login.html">Log in </a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">
+                             
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </header>
+   
+<div class="password-generator-section">
+    <div class="container">
+        <div class="row justify-content-center align-items-center password-row">
+            
+            <div class="col-lg-6 col-md-10 d-flex justify-content-center align-items-center">
+                <div class="school-logo-container" style="max-width: 100%; height: 100%;">
+                    <img src="images/iusbodyphoto-Photoroom.png" alt="Okul Logosu" class="img-fluid" style="width: auto; max-height: 350px;">
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-10">
+                <div class="generator-card">
+                    <h1 style="color: #025599 ">Simple Password Generator</h1>
+                    <p  style="color: #025599">create strong and secure passwords to keep your online accounts safe.</p>
+
+                   <div class="password-output">
+    <input type="text" id="passwordDisplay" value="Pe6sGKg3Uwhoy54w" readonly>
+    <div class="d-flex justify-content-center align-items-center">
+    
+    <span class="strength-indicator" id="strengthIndicator">Very Strong</span>
+</div>
+    <button class="copy-btn" id="copyBtn">Copy Password</button>
+</div>
+
+                    <div class="settings">
+                        
+                        <div class="setting-group length-setting">
+                            <label for="passwordLength">Password length: <span id="lengthValue">16</span></label>
+                            <div class="slider-control">
+                                <button class="length-decrement">-</button>
+                                <input type="range" id="passwordLength" min="6" max="30" value="16">
+                                <span class="slider-display">&lt;&gt;</span>
+                                <button class="length-increment">+</button>
+                            </div>
+                        </div>
+
+                        <div class="settings-title">Settings Division</div>
+
+                        <div class="setting-group char-setting">
+                            <div class="setting-group char-setting">
+                                <div class="checkboxes">
+                                    <label class="checkbox-container">ABC
+                                        <input type="checkbox" id="includeUppercase" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">abc
+                                        <input type="checkbox" id="includeLowercase" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">123
+                                        <input type="checkbox" id="includeNumbers" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">#&amp;%
+                                        <input type="checkbox" id="includeSymbols">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">Spaces
+                                        <input type="checkbox" id="includeSpaces">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+      <footer>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="full">
+                    <div class="logo_footer">
+                        <a href="index.html"><img width="210" src="images/projelogo1.png" alt="#" /></a>
+                    </div>
+                    <div class="information_f">
+                        <p><strong>ADDRESS:</strong>Hrasnička cesta 15, 71210 Ilidža/Sarajevo</p>
+                        <p><strong>TELEPHONE:</strong>+387 33 957 101</p>
+                        <p><strong>EMAIL:</strong>info@ius.edu.ba</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-lg-4"> 
+                        <div class="widget_menu">
+                            <h3>Menu</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="signup.html">Sign Up</a></li>
+                                <li><a href="login.html">Log in</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-6 col-lg-8"> 
+                        <div class="widget_menu">
+                            <h3>Location</h3>
+                            <div class="map_container">
+                                <div id="googleMap" class="map">
+                                    <iframe 
+                                        src="https://www.google.com/maps/d/u/0/embed?mid=1n6otX4-J7fbQSAi9DNmcy12N62SERPo&ehbc=2E312F" width="600" height="300" 
+                                        width="100%" 
+                                        height="250" 
+                                        style="border:0;" 
+                                        allowfullscreen="" 
+                                        loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+   
+      <div class="cpy_">
+         <p class="mx-auto">© 2025 All Rights Reserved By Taha Onur Aydemir </a><br>
+         
+         </p>
+      </div>
+  
+      <script src="js/jquery-3.4.1.min.js"></script>
+      
+      <script src="js/popper.min.js"></script>
+      
+      <script src="js/bootstrap.js"></script>
+    
+      <script src="js/custom.js"></script>
+     
+   </body>
+</html>
